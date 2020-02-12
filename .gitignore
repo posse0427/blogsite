@@ -1,4 +1,10 @@
 *.pyc
 Pipfile
 Pipfile.lock
-media
+*.pyc
+.DS_Store
+*.swp
+/venv/
+/static/
+/media/
+.env
