@@ -3,6 +3,7 @@ import dj_database_url
 
 DEBUG = False
 
+
 try:
     from .local import *
 except ImportError:
