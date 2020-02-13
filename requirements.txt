@@ -23,7 +23,7 @@ l18n==2018.5
 Pillow==6.2.2
 psycopg2==2.8.4
 psycopg2-binary==2.8.4
-puput==1.0.0
+puput==1.0.6
 pytz==2019.3
 requests==2.22.0
 six==1.14.0
