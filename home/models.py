@@ -8,6 +8,8 @@ from django.utils.translation import gettext_lazy as _
 class HomePage(Page):
     template = "home/home_page.html"
 
+    max_count = 1
+
     banner_image = models.ForeignKey(  # 外部キー,画像
         "wagtailimages.Image",  # 結びつける
         verbose_name=_('banner image'),
