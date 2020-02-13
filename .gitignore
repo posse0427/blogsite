@@ -6,6 +6,5 @@ Pipfile.lock
 *.swp
 /venv/
 /static/
-/media/
 .env
 db.sqlite3
