@@ -10,5 +10,7 @@
     {% image self.banner_image fill-400x400 as img %}
     <img src="{{ img.url }}">
     <br />
-    <a href="{{ self.banner_cta.url }}">{{ self.banner_cta }}</a>
+    {% if self.banner_cta %}
+        <a href="{{ self.banner_cta.url }}">{{ self.banner_cta }}</a>
+    {% endif %}
 {% endblock content %}
