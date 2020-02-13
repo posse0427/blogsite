@@ -1,0 +1,242 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-02-11 17:08+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: abstracts.py:21
+msgid "body"
+msgstr "本文"
+
+#: abstracts.py:23
+msgid "Post date"
+msgstr ""
+
+#: abstracts.py:26 models.py:34
+msgid "Header image"
+msgstr "ヘッダー画像"
+
+#: abstracts.py:34
+msgid "excerpt"
+msgstr "見出し"
+
+#: abstracts.py:36
+msgid ""
+"Entry excerpt to be displayed on entries list. If this field is not filled, "
+"a truncate version of body text will be used."
+msgstr ""
+
+#: abstracts.py:49
+msgid "Content"
+msgstr "コンテンツ"
+
+#: abstracts.py:54 models.py:161 templates/puput/base.html:100
+msgid "Categories"
+msgstr "カテゴリー"
+
+#: abstracts.py:57 templates/puput/related_entries.html:6
+msgid "Related Entries"
+msgstr ""
+
+#: abstracts.py:61
+msgid "Metadata"
+msgstr "メタデータ"
+
+#: models.py:27 models.py:138
+msgid "Description"
+msgstr "説明"
+
+#: models.py:30
+msgid "The blog description that will appear under the title."
+msgstr "タイトルの下に表示されるブログの説明"
+
+#: models.py:41
+msgid "Blog Main Color"
+msgstr "ブログのメインカラー"
+
+#: models.py:43
+msgid "Display comments"
+msgstr "コメントを表示する"
+
+#: models.py:44
+msgid "Display categories"
+msgstr "カテゴリーを表示する"
+
+#: models.py:45
+msgid "Display tags"
+msgstr "タグを表示する"
+
+#: models.py:46
+msgid "Display popular entries"
+msgstr ""
+
+#: models.py:47
+msgid "Display last entries"
+msgstr ""
+
+#: models.py:48
+msgid "Display archive"
+msgstr "アーカイブを表示する"
+
+#: models.py:53
+msgid "Entries per page"
+msgstr ""
+
+#: models.py:54
+msgid "Last entries limit"
+msgstr ""
+
+#: models.py:55
+msgid "Popular entries limit"
+msgstr ""
+
+#: models.py:56
+msgid "Tags limit entry header"
+msgstr ""
+
+#: models.py:58
+msgid "Use short description in feeds"
+msgstr ""
+
+#: models.py:76
+msgid "Widgets"
+msgstr ""
+
+#: models.py:85
+msgid "Parameters"
+msgstr "パラメーター"
+
+#: models.py:93
+msgid "Comments"
+msgstr "コメント"
+
+#: models.py:99
+msgid "Feeds"
+msgstr ""
+
+#: models.py:123
+msgid "Blog"
+msgstr "ブログ"
+
+#: models.py:128
+msgid "Category name"
+msgstr "カテゴリーの名前"
+
+#: models.py:135
+msgid "Parent category"
+msgstr "親カテゴリー"
+
+#: models.py:149
+msgid "Parent category cannot be self."
+msgstr "親カテゴリを自分にすることはできません"
+
+#: models.py:151
+msgid "Cannot have circular Parents."
+msgstr ""
+
+#: models.py:160 models.py:165
+msgid "Category"
+msgstr "カテゴリー"
+
+#: models.py:188 models.py:189 models.py:234
+msgid "Entry"
+msgstr ""
+
+#: models.py:235
+msgid "Entries"
+msgstr ""
+
+#: routes.py:22
+msgid "date"
+msgstr "日付"
+
+#: routes.py:35
+msgid "tag"
+msgstr "タグ"
+
+#: routes.py:42
+msgid "category"
+msgstr "カテゴリー"
+
+#: routes.py:49
+msgid "author"
+msgstr "著者"
+
+#: routes.py:62
+msgid "search"
+msgstr "検索"
+
+#: templates/el_pagination/show_more.html:5
+msgid "more"
+msgstr ""
+
+#: templates/puput/base.html:74
+msgid "Feed RSS"
+msgstr "RSSフィード"
+
+#: templates/puput/base.html:79
+msgid "Search"
+msgstr "検索"
+
+#: templates/puput/base.html:88
+msgid "Last Entries"
+msgstr ""
+
+#: templates/puput/base.html:94
+msgid "Popular Entries"
+msgstr ""
+
+#: templates/puput/base.html:106
+msgid "Tags"
+msgstr "タグ"
+
+#: templates/puput/base.html:112
+msgid "Archive"
+msgstr "アーカイブ"
+
+#: templates/puput/blog_page.html:15 templates/puput/blog_page.html:23
+#: templates/puput/blog_page.html:50
+msgid "Entries for"
+msgstr ""
+
+#: templates/puput/blog_page.html:84
+msgid "Continue reading"
+msgstr "続きを読む"
+
+#: templates/puput/blog_page.html:90
+msgid "No results found."
+msgstr ""
+
+#: templates/puput/entry_page.html:62
+msgid "Return"
+msgstr "戻る"
+
+#: templates/puput/tags/archives_list.html:23
+msgid "No entry archives yet"
+msgstr ""
+
+#: templates/puput/tags/categories_list.html:9
+msgid "No categories yet"
+msgstr "まだカテゴリがありません"
+
+#: templates/puput/tags/entries_list.html:31
+msgid "No entries yet"
+msgstr ""
+
+#: templates/puput/tags/tags_list.html:9
+msgid "No tags yet"
+msgstr "まだタグがありません"
