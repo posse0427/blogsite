@@ -50,7 +50,7 @@ msgstr "カテゴリー"
 
 #: abstracts.py:57 templates/puput/related_entries.html:6
 msgid "Related Entries"
-msgstr ""
+msgstr "関連記事"
 
 #: abstracts.py:61
 msgid "Metadata"
@@ -154,7 +154,7 @@ msgstr "カテゴリー"
 
 #: models.py:188 models.py:189 models.py:234
 msgid "Entry"
-msgstr ""
+msgstr "記事"
 
 #: models.py:235
 msgid "Entries"
