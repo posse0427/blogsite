@@ -10,10 +10,6 @@ ALLOWED_HOSTS = ['*']
 
 EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
 
-INSTALLED_APPS += [
-    'debug_toolbar',
-]
-
 try:
     from .local import *
 except ImportError:
