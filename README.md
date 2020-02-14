@@ -10,6 +10,7 @@ Wagtailで作成したブログサイトです。<br>
 - Wagtail
 - Puput
 - PostgreSQL
+- Heroku
 - VSCode(Visual Studio Code)
 
 ## :eyes:  App View
