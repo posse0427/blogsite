@@ -82,11 +82,11 @@ msgstr "タグを表示する"
 
 #: models.py:46
 msgid "Display popular entries"
-msgstr ""
+msgstr "人気の記事を表示"
 
 #: models.py:47
 msgid "Display last entries"
-msgstr ""
+msgstr "最近の記事を表示"
 
 #: models.py:48
 msgid "Display archive"
@@ -126,7 +126,7 @@ msgstr "コメント"
 
 #: models.py:99
 msgid "Feeds"
-msgstr ""
+msgstr "フィード"
 
 #: models.py:123
 msgid "Blog"
@@ -194,11 +194,11 @@ msgstr "検索"
 
 #: templates/puput/base.html:88
 msgid "Last Entries"
-msgstr ""
+msgstr "最近の記事"
 
 #: templates/puput/base.html:94
 msgid "Popular Entries"
-msgstr ""
+msgstr "人気の記事"
 
 #: templates/puput/base.html:106
 msgid "Tags"
@@ -211,7 +211,7 @@ msgstr "アーカイブ"
 #: templates/puput/blog_page.html:15 templates/puput/blog_page.html:23
 #: templates/puput/blog_page.html:50
 msgid "Entries for"
-msgstr ""
+msgstr "投稿した"
 
 #: templates/puput/blog_page.html:84
 msgid "Continue reading"
@@ -219,7 +219,7 @@ msgstr "続きを読む"
 
 #: templates/puput/blog_page.html:90
 msgid "No results found."
-msgstr ""
+msgstr "記事がありません"
 
 #: templates/puput/entry_page.html:62
 msgid "Return"
@@ -227,7 +227,7 @@ msgstr "戻る"
 
 #: templates/puput/tags/archives_list.html:23
 msgid "No entry archives yet"
-msgstr ""
+msgstr "まだ記事のアーカイブがありません"
 
 #: templates/puput/tags/categories_list.html:9
 msgid "No categories yet"
@@ -235,7 +235,7 @@ msgstr "まだカテゴリがありません"
 
 #: templates/puput/tags/entries_list.html:31
 msgid "No entries yet"
-msgstr ""
+msgstr "まだ記事がありません"
 
 #: templates/puput/tags/tags_list.html:9
 msgid "No tags yet"
