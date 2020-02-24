@@ -22,5 +22,3 @@ Wagtailで作成したブログサイトです。<br>
 Wagtailを昔に業務で触っていて、このまま忘れてしまうのはもったいないかなと思ったのでWagtail+Puputでブログサイトを作成しました。
 
 ## :boy:  Author
-
-- [twitter](https://twitter.com/posse0427)
